@@ -20,20 +20,30 @@ const settings = {
             let results = data['results']
             $('#cardbox').empty()
             results.forEach((a)=>{
+                //영화 제목 지정
                 let title = a['original_title']
+                //영화 개요 지정
                 let over = a['overview']
+                //영화 포스터 지정
                 let path = a['poster_path']
+                //영화 평점 지정
                 let vote = a['vote_average']
+                //영화 ID 지정
                 let id = a['id']
                 
                 let temp_html= `<div class="col" >
                                     <div class="card h-100"
+                                        
                                         onclick="alert('영화아이디:${id}')"style="cursor:pointer">
+                                        
                                         <img src="https://image.tmdb.org/t/p/w500${path}"
                                             class="card-img-top">
                                         <div class="card-body">
+                                            
                                             <h5 class="card-title">${title}</h5>
+                                            
                                             <p class="card-text">${over}</p>
+                                            
                                             <q class="card-text">${vote}</q>                                                                                      
                                         </div>
                                     </div>  
