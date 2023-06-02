@@ -1,0 +1,63 @@
+/* 홈페이지 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+        *{font-family: 'Single Day', cursive;}
+        
+        .title {                       
+            height: 250px;
+            width: auto;       
+/* 타이틀 배경화면 */
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://s3-us-west-2.amazonaws.com/prd-rteditorial/wp-content/uploads/2020/01/15112212/700MCUO.jpg');
+            background-position: center;
+            background-size: contain;
+/* 타이틀 배경화면 박스 모서리 둥글게 */
+            border-radius: 10px;
+
+            margin: 30px auto auto auto;
+            padding: 70px 0px 0px 0px;                            
+        }
+/* 타이틀 글씨 크기 및 위치 */
+        .h1 {
+            font-size: 90px;
+
+            text-align: center;
+        }
+        .post {
+            font-size: 40px;
+
+            height: 100px;
+            width: auto;
+/* 검색창 TEXT 입력 박스와 버튼 위치 */
+            text-align: center;
+/* 검색 박스 테두리 색, 두께 */
+            border: 5px solid black;
+/* 검색 박스 모서리 둥글게 */             
+            border-radius: 10px;
+                       
+            margin: 30px auto auto auto;
+            padding: 15px 20px 20px 20px;   
+        }
+
+        .box {
+            font-size: 30px;
+            width: 500px;
+/* 검색어 입력 창 모서리 둥글게 */           
+            border-radius: 10px;
+        }
+
+        .searchbtn {
+            font-size: 30px;
+/* 버튼 모서리 둥글게 */
+            border-radius: 10px;
+        }
+/* 카드박스 */
+        .cards{
+/* 카드박스 배경 이미지 */
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://img.freepik.com/premium-photo/billions-stars-in-night-sky-cluster-of-stars-and-galaxies-cosmic-nebulae-birth-of-a-galaxy-in-the-boundless-cosmos-infinite-universe-3d-render_91497-8812.jpg');
+            
+            width: auto;
+            
+            margin: 20px auto 20px auto; 
+            padding: 30px 30px 30px 30px;
+/* 카드박스 모서리 둥글게 */
+            border-radius: 10px;
+        }
